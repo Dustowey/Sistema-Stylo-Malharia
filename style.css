@@ -1,6 +1,9 @@
 @font-face {
   font-family: jua;
   src: url(assets/jua-regular.ttf);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 body {
