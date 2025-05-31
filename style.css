@@ -1,0 +1,79 @@
+@font-face {
+  font-family: jua;
+  src: url(assets/jua-regular.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffaccb;
+  text-align: center;
+}
+
+.logotipo {
+  margin-top: 20px;
+}
+
+.card {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  background-color: white;
+  box-shadow: 8px 5px 10px #ff005e;
+  border: 5px solid #ffaccb;
+  border-radius: 15px;
+  font-family: jua;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+li {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border: 3px solid #ffaccb;
+  background-color: #ff005e;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.5s ease;
+}
+
+li:hover {
+  cursor: pointer;
+  background-color: #ffaccb;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    width: 700px;
+    height: 800px;
+    font-size: 40px;
+  }
+
+  .btn {
+    width: 500px;
+    height: 100px;
+    border-radius: 15px;
+    border: 5px solid #ffaccb;
+  }
+
+  img {
+    width: 150px;
+    height: auto;
+  }
+}
