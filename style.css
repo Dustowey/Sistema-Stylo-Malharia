@@ -9,6 +9,7 @@ body {
   box-sizing: border-box;
   background-color: #ffaccb;
   text-align: center;
+  user-select: none;
 }
 
 .logotipo {
