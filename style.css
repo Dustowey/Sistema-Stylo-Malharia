@@ -108,4 +108,22 @@ li:hover {
   background-color: #ff005e;
   border-radius: 15px;
   color: white;
+  box-shadow: 10px 5px 10px #ff005e;
+  border: 2px solid white;
+}
+
+.voltar {
+  width: 120px;
+  height: 40px;
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: jua;
+  border-radius: 5px;
+  border: 2px solid #ffaccb;
+}
+
+.voltar:hover {
+  cursor: pointer;
+  background-color: #ffaccb;
+  border: 2px solid #ffffff;
 }
